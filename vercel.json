@@ -22,6 +22,7 @@
     ],
     "env": {
         "ZOHO_EMAIL": "@zoho_email",
-        "ZOHO_PASSWORD": "@zoho_password"
+        "ZOHO_APP_PASSWORD": "@zoho_password"
     }
+
 }
