@@ -1,0 +1,51 @@
+Setup Instructions:
+Zoho Setup:
+
+Go to Zoho Mail and enable Two-Factor Authentication
+
+Generate an "App Password" in your Zoho account settings
+
+Use this app password in your environment variables (not your regular password)
+
+Environment Variables:
+
+In Vercel, go to your project settings
+
+Add environment variables:
+
+ZOHO_EMAIL: your Zoho email address
+
+ZOHO_PASSWORD: your Zoho app password
+
+File Structure:
+
+text
+your-project/
+├── server.py
+├── requirements.txt
+├── vercel.json
+├── .env (local only)
+└── templates/
+    └── index.html
+Deploy to Vercel:
+
+Push your code to GitHub
+
+Connect your repository to Vercel
+
+Vercel will automatically deploy with the environment variables you set
+
+The updated form now includes:
+
+Loading spinner during submission
+
+Success/error messages
+
+Proper form validation
+
+AJAX submission without page reload
+
+Server-side email processing with Zoho SMTP
+
+Make sure to replace the placeholder email addresses and set up your Zoho app password correctly for the email functionality to work.
+
